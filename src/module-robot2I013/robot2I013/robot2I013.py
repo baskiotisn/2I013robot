@@ -59,7 +59,7 @@ class Robot2I013(object):
         except Exception as e:
             print("Distance Sensor not found",e)
         try:
-            self.imu = imu.inertial_measurement_unit()
+            self.imu = imu.InertialMeasurementUnit()
         except Exception as e:
             print("IMU sensor not found",e)
         self._gpg.set_motor_limits(self._gpg.MOTOR_LEFT+self._gpg.MOTOR_RIGHT,0)

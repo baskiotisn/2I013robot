@@ -31,5 +31,5 @@ setup(
 
 
     packages=find_packages(),
-    py_modules = ['robot2I013'],
+    py_modules = ['robot2I013.robot2I013'],
 )
